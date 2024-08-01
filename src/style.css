@@ -11,6 +11,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
 }
 section {
   max-width: 1200px;
@@ -77,7 +78,6 @@ footer h3 {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  margin-right: 20px;
 }
 
 footer li {
