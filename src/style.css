@@ -13,9 +13,19 @@ body {
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 64px;
 }
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-3-columns-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.tim-photo {
+  max-width: 100%;
+}
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 120px 0;
 }
 
 header {
@@ -65,13 +75,39 @@ header a {
   margin-top: 32px;
 }
 
+main {
+  background-color: rgb(35, 6, 35);
+  color: white;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  opacity: 0.3;
+  text-transform: uppercase;
+  margin: 0;
+}
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 footer {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
-    url("../images/quote.png");
+    url("../images/footer-img.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 120px 0;
 }
 
 footer h3 {
@@ -104,7 +140,7 @@ footer p {
 
 @media (max-width: 960px) {
   header {
-    padding: 60px 0;
+    padding: 73px 0;
   }
   header h1 {
     font-size: 48px;
@@ -114,5 +150,13 @@ footer p {
   }
   header h3 {
     font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+  .tim-photo {
+    display: block;
+    margin: 0 auto;
   }
 }
