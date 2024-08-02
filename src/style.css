@@ -29,10 +29,17 @@ body {
   text-align: center;
 }
 .embed-video {
-  max-width: 100%;
-  aspect-ratio: 16/9;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 900px;
   margin: 0 auto;
+  aspect-ratio: 16/9;
+}
+
+.video {
+  max-width: 100%;
+
+  margin: 0 auto;
+  aspect-ratio: 1/1;
 }
 .space {
   margin-bottom: 25px;
