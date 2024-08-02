@@ -19,13 +19,61 @@ body {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .tim-photo {
   max-width: 100%;
 }
-section {
+.text-center {
+  text-align: center;
+}
+.embed-video {
+  max-width: 100%;
+  aspect-ratio: 16/9;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 120px 0;
+}
+
+.card {
+  margin: 30px 0;
+  background-color: white;
+}
+.card-body {
+  padding: 30px;
+  color: black;
+}
+.card p {
+  font-family: "roboto", sans-serif;
+}
+.card-footer {
+  padding: 30px;
+}
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: rgb(35, 6, 35);
+  border-radius: 25px;
+  text-decoration: none;
+  margin: 50px;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 120px;
+}
+
+section.secondary {
+  background-color: rgb(60, 10, 60);
+  text-align: center;
 }
 
 header {
@@ -95,10 +143,24 @@ main h3 {
   line-height: 1.5;
   margin: 0;
 }
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  font-family: "Gupter", serif;
+  margin: 0;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  font-family: "Gupter", serif;
+  margin: 0;
+}
 
 main p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
